@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavbarComponent from './components/NavbarComponent'
 import HomeComponent from './components/HomeComponent'
 import WeatherDetailPage from './components/WeatherDetailPage';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
           </Routes>
         </main>
 
-        <footer>
-
+        <footer className='bg-m-secondary vw-100'>
+          <FooterComponent />
         </footer>
       </BrowserRouter>
   )

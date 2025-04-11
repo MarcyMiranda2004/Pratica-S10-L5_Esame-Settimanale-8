@@ -1,0 +1,19 @@
+@import url(./style.css);
+
+.navbarToggle {
+  background-color: var(--m-White) !important;
+}
+
+.navbarToggle:focus {
+  outline: 2px solid var(--m-warning) !important;
+}
+
+.cityImg {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.cityImg:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}

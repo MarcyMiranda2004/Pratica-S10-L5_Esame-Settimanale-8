@@ -1,0 +1,6 @@
+.searchCamp {
+}
+
+.searchCamp:focus {
+  outline: 2px solid var(--m-warning) !important;
+}
